@@ -9,7 +9,8 @@ app.use('/api/', routes.getRouter());
 //obsługa JSON z POST
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-
+var db = require.main.require('./lib/db');
+app.db=db;
 
 app.listen(port, function () {
     console.log('REST API app is listening on port %d!', port);
