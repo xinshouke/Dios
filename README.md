@@ -5,11 +5,23 @@ nodejs version:v4.4.1
 
 npm version:2.14.20
 
-#Steps:
-1.edit the propties in config/datasources.json as customer define of database
+#Installation:
+1.git clone ~project
 
-2.new model files with table name under /model
+2.config the propties in config/datasources.json as customer define of database
 
-3.node app
+3.new model files with table name under /model/{datasource name}
 
-4.http://127.0.0.1:3000/{datasource name}/{model name}
+4.npm install
+
+5.node app
+
+6.http://127.0.0.1:3000/api/{datasource name}/{model name}
+
+
+#Usage:
+
+1)get mutiple datasouce in code
+   app.db[key]
+
+
