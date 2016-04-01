@@ -1,0 +1,11 @@
+
+{
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "string",
+      "required": false
+    }
+}
