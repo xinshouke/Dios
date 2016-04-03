@@ -16,10 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "cryptr": "^2.0.0",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "html": "0.0.10",
+    "lowdb": "^0.12.5",
     "mysql": "^2.10.2",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "uuid": "^2.0.1"
   }
 }
