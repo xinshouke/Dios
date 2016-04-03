@@ -22,6 +22,10 @@ npm version:2.14.20
 #Usage:
 
 1)get mutiple datasouce in code
-   app.db[key]
+   app.db[key]; Currtently,the project supports mysql and lowdb
+
+#LICENSE
+
+Dios is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
 
 
