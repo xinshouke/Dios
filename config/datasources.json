@@ -1,14 +1,18 @@
 {
   "lowdbds": {
-    "name": "dios",
+    "database": "Diosdb",
+    "connector": "lowdb"
+  },
+    "lowdbtestds": {
+    "database": "Diostestdb",
     "connector": "lowdb"
   },
   "cduserds": {
-    "host": "127.0.0.1",
+    "host": "fultoncupid.mysql.rds.aliyuncs.com",
     "port": 3306,
-    "database": "xinshouke",
-    "username": "xinshouke",
-    "password": "123456",
+    "database": "liangtest",
+    "username": "liangy",
+    "password": "p0o9i8u7y6t5r4e3w2q1",
     "name": "cduserds",
     "connector": "mysql"
   }
